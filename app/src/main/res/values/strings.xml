@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Embeded Video</string>
+    <string name="video_url_text">Youtube Video Url</string>
+    <string name="get_video">Get Video</string>
+</resources>

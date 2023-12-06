@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/_344955"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#232F34"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/app_name"
+        app:titleTextColor="#FFFFFF"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvVideoId"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Youtube Video ID"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:errorTextColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputVideoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGetVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_video"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#232F34"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvVideoId"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
