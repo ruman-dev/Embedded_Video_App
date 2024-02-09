@@ -8,4 +8,5 @@ This is a YouTube-embedded video app where you have to provide any YouTube video
 
 #ScreenView
 
-![Embedded Video App](https://github.com/ruman-dev/Embedded_Video_App/assets/100184592/baec1665-2f3b-43d7-ac5d-dabf85d792cb)
+![Embedded Video App](https://github.com/ruman-dev/Embedded_Video_App/assets/100184592/214b40c4-7f15-4a71-87b3-530e613bce5e)
+
